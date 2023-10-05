@@ -24,21 +24,21 @@ const Navbar: React.FC = () => {
                     <div className="hidden md:block text-primary">
                     <div className="ml-4 flex items-center space-x-4 p-2">
                         <ModeToggle />
-                        <a  href="/" className="">
+                        <Link  href="/" className="">
                             Home
-                        </a>
-                        <a  href="/skills" className="">
+                        </Link>
+                        <Link  href="/Skills" className="">
                             Skills
-                        </a>
-                        <a  href="/projects" className="">
+                        </Link>
+                        <Link  href="/projects" className="">
                             Project's
-                        </a>
-                        <a  href="/about" className="">
+                        </Link>
+                        <Link  href="/about" className="">
                             About
-                        </a>
-                        <a  href="/contact" className="">
+                        </Link>
+                        <Link  href="/contact" className="">
                             Contact
-                        </a>
+                        </Link>
                     </div>
                     </div>
                         <div className="md:hidden flex items-center">
@@ -67,21 +67,21 @@ const Navbar: React.FC = () => {
             {isClick && (
                 <div className="md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <a  href="/" className="text-primary block p-2">
+                        <Link  href="/" className="text-primary block p-2">
                             Home
-                        </a>
-                        <a  href="/skills" className=" block p-2">
+                        </Link>
+                        <Link  href="/Skills" className=" block p-2">
                             Skills
-                        </a>
-                        <a  href="/projects" className=" block p-2">
+                        </Link>
+                        <Link  href="/projects" className=" block p-2">
                             Project's
-                        </a>
-                        <a  href="/about" className=" block p-2">
+                        </Link>
+                        <Link  href="/about" className=" block p-2">
                             About
-                        </a>
-                        <a  href="/contact" className=" block p-2">
+                        </Link>
+                        <Link  href="/contact" className=" block p-2">
                             Contact
-                        </a>
+                        </Link>
                         <div className="px-4 pt-2">
                         <ModeToggle />
                         </div>

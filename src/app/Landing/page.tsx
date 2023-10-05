@@ -1,19 +1,23 @@
 import React from "react";
+import {Button} from "@/components/ui/button";
 
 const Landing: React.FC = () => {
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100">
+        <div className="min-h-screen flex items-center justify-center bg-base-200">
             <div className="text-center">
+                <h1 className="text-5xl text-primary font-bold mt-22 pt-20">Hello Freind's</h1>
                 <img
-                    src="your-image-url.jpg"
-                    alt="Your Image"
-                    className="mx-auto h-32 w-32 rounded-full"
+                    src="/Images/mainImg.png"
+                    alt="boat Image"
+                    className="mx-auto rounded-full"
+                    width="500"
+                    height="500"
                 />
-                <h1 className="text-4xl font-bold mt-4">Welcome to Your Website</h1>
-                <p className="text-gray-600 mt-2">
-                    This is the best place for all your needs.
+                <p className="text-primary mt-2 px-4 font-mono">
+                    I'm Ignat, known as Bov in the tech world, and I excel in frontend development.
                 </p>
+
             </div>
         </div>
     );
