@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
                 <div className=" flex items-center  justify-between h-16 font-mono">
                     <div className="flex items-center">
                     <div className="flex shrink-0">
-                    <a className=" text-2xl" href="https://www.linkedin.com/in/ignat-gabov-97319a145/">BovDaBoat</a>
+                    <a className="text-2xl" href="https://www.linkedin.com/in/ignat-gabov-97319a145/">BovDaBoat</a>
                     </div>
                     </div>
                     <div className="hidden md:block text-primary">
@@ -49,13 +49,13 @@ const Navbar: React.FC = () => {
                             >
                                 {isClick ? (
                                     <Image
-                                        src="/Icons/ui-menu-grid.svg"
+                                        src="/Icons/th-menu.svg"
                                         width={20}
                                         height={20}
                                         alt="icon menu" />
                                 ) : (
                                     <Image
-                                        src="/Icons/ui-menu-grid-negative.svg"
+                                        src="/Icons/th-menu-outline.svg"
                                         width={20}
                                         height={20}
                                         alt="icon menu" />
@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
             {isClick && (
                 <div className="md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <a  href="/" className="text-white block p-2">
+                        <a  href="/" className="text-primary block p-2">
                             Home
                         </a>
                         <a  href="/skills" className=" block p-2">

@@ -4,6 +4,8 @@
 
 
 
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -25,7 +27,7 @@
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
     --ring: 240 5.9% 10%;
-    --radius: 0rem;
+    --radius: 0.5rem;
   }
 
   .dark {
@@ -50,4 +52,3 @@
     --ring: 240 4.9% 83.9%;
   }
 }
-
