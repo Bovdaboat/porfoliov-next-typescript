@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const ProjectCard = (props: {
     title: string;
@@ -20,17 +21,17 @@ const ProjectCard = (props: {
                 <ul className="flex space-x-4 sm:mt-0">
                     <li>
                         <a>
-                            <img className="" src="/Icons/react-dark.svg" width={30} height={30} alt="next js logo" />
+                            <Image className="" src="/Icons/react-dark.svg" width={30} height={30} alt="next js logo" />
                         </a>
                     </li>
                     <li>
                         <a>
-                            <img className="" src="/Icons/nextjs-solid.svg" width={30} height={30} alt="next js logo" />
+                            <Image className="" src="/Icons/nextjs-solid.svg" width={30} height={30} alt="next js logo" />
                         </a>
                     </li>
                     <li>
                         <a>
-                            <img className="" src="/Icons/tailwindcss-dark.svg" width={30} height={30} alt="next js logo" />
+                            <Image className="" src="/Icons/tailwindcss-dark.svg" width={30} height={30} alt="next js logo" />
                         </a>
                     </li>
                 </ul>

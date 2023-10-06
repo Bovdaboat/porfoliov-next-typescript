@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const AboutMe : React.FC = () => {
     return(
 
@@ -11,14 +13,17 @@ const AboutMe : React.FC = () => {
                         <div className="bg-white rounded-xl p-4 font-mono">
                             <p className="text-black text-lg mb-6">
                                 I have a strong passion for crafting clean code and designing user-friendly web experiences.
-                                Beyond the realm of coding, I hold a deep appreciation for cherished moments with my loved ones, which includes spending quality time with my adorable dogs. Let's collaborate to bring life to engaging web projects and transform our creative ideas into reality.
+                                Beyond the realm of coding, I hold a deep appreciation for cherished moments with my
+                                loved ones, which includes spending quality time with my adorable dogs. Let&apos;s
+                                collaborate to bring life to engaging web projects and transform our creative
+                                ideas into reality.
                             </p>
                         </div>
                     </div>
 
                     {/* Image */}
                     <div className="md:order-2 pt-20">
-                        <img src="/Images/pugs.jpeg" alt="pugs" className="w-full h-auto rounded-md" />
+                        <Image src="/Images/pugs.jpeg" alt="pugs" className="w-full h-auto rounded-md" />
                     </div>
                 </div>
             </div>
