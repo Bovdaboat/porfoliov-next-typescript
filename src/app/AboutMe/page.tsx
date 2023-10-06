@@ -23,7 +23,7 @@ const AboutMe : React.FC = () => {
 
 
                     <div className="md:order-2 pt-20">
-                        <Image src="/Images/pugs.jpeg" alt="pugs" className="w-full h-auto rounded-md" />
+                        <Image src="/Images/pugs.jpeg"  height="400" width="400" alt="pugs" className="w-full h-auto rounded-md" />
                     </div>
                 </div>
             </div>
