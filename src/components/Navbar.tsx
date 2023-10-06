@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
                             Skills
                         </Link>
                         <Link  href="/Projects" className="">
-                            Project's
+                            Project&apos;s
                         </Link>
                         <Link  href="/AboutMe" className="">
                             About
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
                             Skills
                         </Link>
                         <Link  href="/projects" className=" block p-2">
-                            Project's
+                            Project&apos;s
                         </Link>
                         <Link  href="/about" className=" block p-2">
                             About
