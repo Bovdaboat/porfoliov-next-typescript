@@ -1,13 +1,14 @@
 import React from "react";
 import {Button} from "@/components/ui/button";
+import Image from "next/image";
 
 const Landing: React.FC = () => {
 
     return (
         <div className="min-h-screen flex items-center justify-center bg-base-200">
             <div className="text-center">
-                <h1 className="text-5xl text-primary font-bold mt-22 pt-20">Hello Freind's</h1>
-                <img
+                <h1 className="text-5xl text-primary font-bold mt-22 pt-20">Hello Freind&apos;s</h1>
+                <Image
                     src="/Images/mainImg.png"
                     alt="boat Image"
                     className="mx-auto rounded-full"

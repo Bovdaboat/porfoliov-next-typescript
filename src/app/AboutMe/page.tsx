@@ -5,7 +5,7 @@ const AboutMe : React.FC = () => {
 
             <div id="AboutMe" className="max-w-screen-xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
-                    {/* Text Content */}
+
                     <div className="md:order-1 pt-20">
                         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-primary mb-4 pb-10">
                             About Me
@@ -21,7 +21,7 @@ const AboutMe : React.FC = () => {
                         </div>
                     </div>
 
-                    {/* Image */}
+
                     <div className="md:order-2 pt-20">
                         <Image src="/Images/pugs.jpeg" alt="pugs" className="w-full h-auto rounded-md" />
                     </div>
