@@ -1,5 +1,4 @@
 import React from "react";
-import {Button} from "@/components/ui/button";
 import Image from "next/image";
 
 const Landing: React.FC = () => {
@@ -16,7 +15,7 @@ const Landing: React.FC = () => {
                     height="500"
                 />
                 <p className="text-primary mt-2 px-4 font-mono">
-                    I'm Ignat, known as Bov in the tech world, and I excel in frontend development.
+                    I&apos;m Ignat, known as Bov in the tech world, and I excel in frontend development.
                 </p>
 
             </div>
