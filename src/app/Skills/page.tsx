@@ -5,7 +5,7 @@ const Skills: React.FC = () => {
                 <div className="container mx-auto px-4 flex justify-center pt-20">
                     <div className="w-2/3">
                         <h1 className="text-4xl font-bold mb-6 text-center">Skills</h1>
-                        <div className="rounded-lg bg-base-200 dark:bg-white light:bg-base-200 text-black p-4 pt-10
+                        <div className="rounded-lg bg-base-200 dark:bg-white light:bg-base-200 text-black p-4 pt-8 mt-20
                         shadow-md dark:shadow-lg ">
                             <div className="mb-6">
                                 <h2 className="text-2xl font-semibold mb-2">Languages</h2>
@@ -49,6 +49,10 @@ const Skills: React.FC = () => {
                                     <li className="mb-3">
                                         <img src="/Icons/hardhat.svg" alt="Astro icon" className="w-6 h-6 mr-2 inline" />
                                         Hardhat
+                                    </li>
+                                    <li className="mb-3">
+
+                                        Shadcn/UI
                                     </li>
                                 </ul>
                             </div>
