@@ -73,13 +73,13 @@ const Navbar: React.FC = () => {
                         <Link  href="/Skills" className=" block p-2">
                             Skills
                         </Link>
-                        <Link  href="/projects" className=" block p-2">
+                        <Link  href="/Projects" className=" block p-2">
                             Project&apos;s
                         </Link>
-                        <Link  href="/about" className=" block p-2">
+                        <Link  href="/About" className=" block p-2">
                             About
                         </Link>
-                        <Link  href="/contact" className=" block p-2">
+                        <Link  href="/Contact" className=" block p-2">
                             Contact
                         </Link>
                         <div className="px-4 pt-2">
