@@ -10,7 +10,11 @@ const ProjectCard = (props: {
     return (
         <div className="items-center bg-white rounded-lg shadow sm:flex ">
             <a href={props.liveUrl}>
-                <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={props.imageSrc} alt={props.title} />
+                <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                       src={props.imageSrc}
+                       width="300"
+                       height='300'
+                       alt={props.title} />
             </a>
             <div className="p-5">
                 <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
