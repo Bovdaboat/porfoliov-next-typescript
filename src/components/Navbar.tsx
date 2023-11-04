@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
                 <div className=" flex items-center  justify-between h-16 font-mono">
                     <div className="flex items-center">
                     <div className="flex shrink-0">
-                    <a className="text-2xl" href="https://www.linkedin.com/in/ignat-gabov-97319a145/">BovDaBoat</a>
+                    <a className="text-2xl" href="/">BovDaBoat</a>
                     </div>
                     </div>
                     <div className="hidden md:block text-primary">

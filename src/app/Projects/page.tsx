@@ -13,8 +13,8 @@ const ProjectCard = (props: {
             <a href={props.liveUrl}>
                 <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
                        src={props.imageSrc}
-                       width="300"
-                       height='300'
+                       width="800"
+                       height='800'
                        alt={props.title} />
             </a>
             <div className="p-5">
