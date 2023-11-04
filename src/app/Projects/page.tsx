@@ -5,10 +5,11 @@ const ProjectCard = (props: {
     title: string;
     description: string;
     imageSrc: string;
+    iconSrcs: string[]; // Array of icon sources
     liveUrl: string;
 }) => {
     return (
-        <div className="items-center bg-white rounded-lg shadow sm:flex ">
+        <div className="items-center bg-white rounded-lg shadow sm:flex">
             <a href={props.liveUrl}>
                 <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
                        src={props.imageSrc}
@@ -23,21 +24,13 @@ const ProjectCard = (props: {
                 <span className="text-black font-bold">Photographer portfolio</span>
                 <p className="mt-3 mb-4 font-light text-black dark:text-black">{props.description}</p>
                 <ul className="flex space-x-4 sm:mt-0">
-                    <li>
-                        <a>
-                            <Image className="" src="/Icons/react-dark.svg" width={30} height={30} alt="next js logo" />
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <Image className="" src="/Icons/nextjs-solid.svg" width={30} height={30} alt="next js logo" />
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <Image className="" src="/Icons/tailwindcss-dark.svg" width={30} height={30} alt="next js logo" />
-                        </a>
-                    </li>
+                    {props.iconSrcs.map((iconSrc, index) => (
+                        <li key={index}>
+                            <a>
+                                <Image className="" src={iconSrc} width={30} height={30} alt={`icon-${index}`} />
+                            </a>
+                        </li>
+                    ))}
                 </ul>
                 <div className="p-7">
                     <button
@@ -64,15 +57,31 @@ const Projects: React.FC = () => {
                     title="Photographer Portfolio"
                     description="A straightforward presentation showcasing a portfolio of client projects, employed as a valuable asset for his freelance business."
                     imageSrc="/Images/colblug.png"
+                    iconSrcs={[
+                        "/Icons/react-dark.svg",
+                        "/Icons/javascript.svg",
+                        "/Icons/nextjs-solid.svg",
+                        "/Icons/tailwindcss-dark.svg",
+                        "/Icons/daisyui.svg"
+                    ]}
                     liveUrl="https://col-port-bqbnyur85-bovdaboat.vercel.app/"
                 />
                 <ProjectCard
                     title="Pug NFT Page"
                     description="An application showcasing a curated collection of pug-themed digital assets, meticulously designed and developed with artistic integrity, and seamlessly deployed on the OpenSea blockchain platform."
                     imageSrc="/Images/pugnft.png"
+                    iconSrcs={[
+                        "/Icons/react-dark.svg",
+                        "/Icons/javascript.svg",
+                        "/Icons/hardhat.svg",
+                        "/Icons/solidity.svg",
+                        "/Icons/nextjs-solid.svg",
+                        "/Icons/tailwindcss-dark.svg",
+                        "/Icons/daisyui.svg"
+                    ]}
                     liveUrl="https://stellatsunamipage-n3sqn4avh-bovdaboat.vercel.app/"
                 />
-                {/* Add more ProjectCard components as needed */}
+                {/* Add more ProjectCard components with different iconSrcs as needed */}
             </div>
         </div>
     );
