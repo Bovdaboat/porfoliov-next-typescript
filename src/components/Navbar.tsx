@@ -1,10 +1,29 @@
 "use client"
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {ModeToggle} from "@/components/Toggle-mode";
 
+
 const Navbar: React.FC = () => {
+
+    const [navbarBackground, setNavbarBackground] = useState<string>("bg-base");
+
+    const handleScroll = () => {
+        if (window.scrollY > 0) {
+            setNavbarBackground("bg-secondary"); // Change background color when scrolled
+        } else {
+            setNavbarBackground("bg-base-100"); // Reset background color when at the top
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
   const [isClick, setIsClick ] = useState(false)
 
@@ -13,7 +32,7 @@ const Navbar: React.FC = () => {
     }
 
     return (
-        <nav className=" text-primary">
+        <nav className={`text-primary sticky top-0 ${navbarBackground}`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border border-green-50">
                 <div className=" flex items-center  justify-between h-16 font-mono">
                     <div className="flex items-center">
