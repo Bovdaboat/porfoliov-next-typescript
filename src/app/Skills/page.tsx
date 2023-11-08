@@ -6,7 +6,7 @@ const Skills: React.FC = () => {
             <div className="flex justify-center ">
                 <div className="container mx-auto px-4 flex justify-center pt-20">
                     <div className="w-2/3">
-                        <h1 className="text-4xl font-bold mb-6 text-center">Skills</h1>
+                        <h1 className="text-4xl font-bold mb-6 text-center">Skill&apos;s</h1>
                         <div className="rounded-lg bg-base-200 dark:bg-white light:bg-base-200 text-black p-4 pt-8 mt-20
                         shadow-md dark:shadow-lg ">
                             <div className="mb-6">
@@ -45,12 +45,20 @@ const Skills: React.FC = () => {
                                         Astro
                                     </li>
                                     <li className="mb-3">
-                                        <Image src="/Icons/daisyui.svg"  height="20" width="20"alt="Daisy UI icon" className="w-8 h-8 mr-2 inline" />
+                                        <Image src="/Icons/daisyui.svg"  height="20" width="20" alt="Daisy UI icon" className="w-8 h-8 mr-2 inline" />
                                         Daisy UI
                                     </li>
                                     <li className="mb-3">
                                         <Image src="/Icons/hardhat.svg"  height="20" width="20" alt="Astro icon" className="w-6 h-6 mr-2 inline" />
                                         Hardhat
+                                    </li>
+                                    <li className="mb-3">
+                                        <Image src="/Icons/wordpress.svg"  height="20" width="20" alt="Astro icon" className="w-6 h-6 mr-2 inline" />
+                                        WordPress
+                                    </li>
+                                    <li className="mb-3">
+                                        <Image src="/Icons/wix.svg"  height="20" width="20" alt="Astro icon" className="w-6 h-6 mr-2 inline" />
+                                        Wix Studio
                                     </li>
                                     <li className="mb-3">
 
