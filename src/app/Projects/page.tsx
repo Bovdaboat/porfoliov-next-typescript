@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
     return (
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 pt-20">
             <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-black dark:text-white pt-10">Projects</h2>
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-black dark:text-white pt-10">Project&apos;s</h2>
                 <p className="font-light lg:mb-16 sm:text-xl text-white">Click on Live to visit the App&apos;s</p>
             </div>
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 text-primary">
