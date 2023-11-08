@@ -92,6 +92,20 @@ const Projects: React.FC = () => {
                     ]}
                     liveUrl="https://entropytechtips.wordpress.com"
                 />
+                <ProjectCard
+                    title="E-commerce website beauty products"
+                    description="
+                            I crafted a gorgeous e-commerce site for beauty products using Wix Studio.
+                            Its user-friendly tools allowed me to design and personalize the site effortlessly.
+                            I loaded it with captivating images, detailed product descriptions, and a smooth checkout
+                            experience. With Wix's SEO features and social media integration, I'm all set to dazzle
+                            customers and boost sales."
+                    imageSrc="/Images/wixstudio.png"
+                    iconSrcs={[
+                        "/Icons/wix.svg"
+                    ]}
+                    liveUrl="https://ignatgabov31.wixstudio.io/my-site-4"
+                />
                 {/* Add more ProjectCard components with different iconSrcs as needed */}
             </div>
         </div>
