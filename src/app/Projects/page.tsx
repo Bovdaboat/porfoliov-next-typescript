@@ -64,7 +64,7 @@ const Projects: React.FC = () => {
                         "/Icons/tailwindcss-dark.svg",
                         "/Icons/daisyui.svg"
                     ]}
-                    liveUrl="https://col-port-bqbnyur85-bovdaboat.vercel.app/"
+                    liveUrl="https://col-port.vercel.app/"
                 />
                 <ProjectCard
                     title="Pug NFT Page"
