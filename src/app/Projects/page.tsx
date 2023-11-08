@@ -18,10 +18,10 @@ const ProjectCard = (props: {
                        alt={props.title} />
             </a>
             <div className="p-5">
-                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-black">
                     <a href="#">{props.title}</a>
                 </h3>
-                <span className="text-black font-bold">Photographer portfolio</span>
+                <span className="text-black font-bold"></span>
                 <p className="mt-3 mb-4 font-light text-black dark:text-black">{props.description}</p>
                 <ul className="flex space-x-4 sm:mt-0">
                     {props.iconSrcs.map((iconSrc, index) => (
@@ -52,7 +52,7 @@ const Projects: React.FC = () => {
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-black dark:text-white pt-10">Projects</h2>
                 <p className="font-light lg:mb-16 sm:text-xl text-white">Click on Live to visit the App&apos;s</p>
             </div>
-            <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 text-black">
+            <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 text-primary">
                 <ProjectCard
                     title="Photographer Portfolio"
                     description="A straightforward presentation showcasing a portfolio of client projects, employed as a valuable asset for his freelance business."
@@ -80,6 +80,17 @@ const Projects: React.FC = () => {
                         "/Icons/daisyui.svg"
                     ]}
                     liveUrl="https://stellatsunamipage-n3sqn4avh-bovdaboat.vercel.app/"
+                />
+                <ProjectCard
+                    title="Blog"
+                    description="
+                            This blog is proudly hosted on WordPress, a powerful and versatile platform that has
+                    proven to be an invaluable resource for individuals and businesses alike."
+                    imageSrc="/Images/wordpressweb.png"
+                    iconSrcs={[
+                        "/Icons/wordpress.svg"
+                    ]}
+                    liveUrl="https://entropytechtips.wordpress.com"
                 />
                 {/* Add more ProjectCard components with different iconSrcs as needed */}
             </div>
