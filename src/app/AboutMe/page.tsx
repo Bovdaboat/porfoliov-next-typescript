@@ -12,11 +12,11 @@ const AboutMe : React.FC = () => {
                         </h1>
                         <div className="bg-white rounded-xl p-4 font-mono">
                             <p className="text-black text-lg mb-6">
-                                I have a strong passion for crafting clean code and designing user-friendly web experiences.
-                                Beyond the realm of coding, I hold a deep appreciation for cherished moments with my
-                                loved ones, which includes spending quality time with my adorable dogs. Let&apos;s
-                                collaborate to bring life to engaging web projects and transform our creative
-                                ideas into reality.
+                                I have a strong passion for crafting clean code,
+                                designing user-friendly web experiences, and implementing end-to-end testing
+                                strategies. Beyond the realm of coding, I hold a deep appreciation for
+                                cherished moments with my loved ones, which includes spending quality time with my
+                                adorable dogs. Let&apos;s collaborate to bring life to engaging web projects and transform our creative ideas into reality.
                             </p>
                         </div>
                     </div>

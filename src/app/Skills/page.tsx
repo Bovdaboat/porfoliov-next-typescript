@@ -64,6 +64,10 @@ const Skills: React.FC = () => {
 
                                         Shadcn/UI
                                     </li>
+                                    <li className="mb-3">
+                                        <Image src="/Icons/cypress.svg"  height="20" width="20" alt="Astro icon" className="w-6 h-6 mr-2 inline" />
+                                        Cypress
+                                    </li>
                                 </ul>
                             </div>
                         </div>

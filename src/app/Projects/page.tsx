@@ -95,7 +95,7 @@ const Projects: React.FC = () => {
                 <ProjectCard
                     title="E-commerce website beauty products"
                     description="
-                            I crafted a gorgeous e-commerce site for beauty products using Wix Studio.
+                             I crafted a gorgeous e-commerce site for beauty products using Wix Studio.
                             Its user-friendly tools allowed me to design and personalize the site effortlessly.
                             I loaded it with captivating images, detailed product descriptions, and a smooth checkout
                             experience. With Wix's SEO features and social media integration, I'm all set to dazzle
