@@ -26,11 +26,11 @@ const Skills: React.FC = () => {
                                 <h2 className="text-2xl font-semibold mb-2">CSS</h2>
                                 <p className="mb-3 pt-5">
                                     <Image src="/Icons/tailwindcss-dark.svg"  height="20" width="20" alt="Tailwind CSS icon" className="w-6 h-6 mr-2 inline" />
-                                    Tailwind CSS, Vanilla CSS
+                                    Tailwind CSS
                                 </p>
                             </div>
                             <div>
-                                <h2 className="text-2xl font-semibold mb-2">Frameworks/Libraries</h2>
+                                <h2 className="text-2xl font-semibold mb-2">Libraries</h2>
                                 <ul className="list-disc list-inside">
                                     <li className="mb-3 pt-5">
                                         <Image src="/Icons/react-dark.svg"  height="20" width="20" alt="React icon" className="w-6 h-6 mr-2 inline" />
