@@ -20,6 +20,10 @@ const Skills: React.FC = () => {
                                         <Image src="/Icons/solidity.svg" height="20" width="20" alt="Solidity icon" className="w-6 h-6 mr-2 inline" />
                                         Solidity
                                     </li>
+                                    <li className="mb-3">
+                                        <Image src="/Icons/go.svg" height="20" width="20" alt="Solidity icon" className="w-6 h-6 mr-2 inline" />
+                                        Go
+                                    </li>
                                 </ul>
                             </div>
                             <div className="mb-6">
