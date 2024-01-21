@@ -22,7 +22,7 @@ const Landing: React.FC = () => {
                 <p className="text-primary mt-2 px-10 font-mono">
 
                     Hello, I&apos;m Ignat, aka Bov in tech. I specialize in frontend development, crafting seamless
-                    interfaces for web 2.0 and web 3.0. Let&apos;s enhance your digital presence together.
+                    interfaces for web 2.0 and web 3.0. Let&apos;s enhance your digital presence together
                 </p>
             </div>
         </div>
