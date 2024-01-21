@@ -9,7 +9,7 @@ const Landing: React.FC = () => {
                 <div className="text-4xl text-primary font-bold mt-22 pt-20 mx-7">
                 <h1 className="text-4xl text-primary font-bold mt-22 pt-20 mx-7">
                     Looking for a website that speaks to your unique style?
-                    <span className=" p-3 text-blue-600">Let&apos;s set sail on this journey!</span>
+                    <span className=" p-3 text-blue-700">Let&apos;s set sail on this journey!</span>
                 </h1>
                 </div>
                 <Image
