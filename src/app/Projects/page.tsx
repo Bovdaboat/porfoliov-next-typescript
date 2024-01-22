@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
+import Link from "next/link";
 
 const ProjectCard = (props: {
     title: string;
@@ -53,7 +54,7 @@ const Projects: React.FC = () => {
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-black dark:text-white pt-10">Project&apos;s</h2>
                 <p className="font-light lg:mb-16 sm:text-xl text-white">Click on Live to visit the App&apos;s</p>
                 <div className="mt-4">
-                    <button className=" m-2 p-2 bg-blue-600 text-2xl text-white border-2 rounded-xl  ">Web 2.0</button>
+                    <Link href="" className=" m-2 p-2 bg-blue-700 text-xl text-white border-2 rounded-xl border-primary  ">Web 2.0</Link>
                 </div>
 
             </div>
@@ -101,7 +102,7 @@ const Projects: React.FC = () => {
             </div>
 
             <div className="flex justify-center mb-16 mt-10">
-                <button className=" m-2 p-2 bg-blue-600 text-2xl text-white border-2 rounded-xl ">Web 3.0</button>
+                <Link href="" className=" m-2 p-2 bg-blue-700 text-xl text-white border-2 rounded-xl border-primary ">Web 3.0</Link>
             </div>
 
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 text-primary">

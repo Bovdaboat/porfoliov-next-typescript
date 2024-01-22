@@ -52,6 +52,9 @@ const Navbar: React.FC = () => {
                         <Link  href="/Projects" className="">
                             Project&apos;s
                         </Link>
+                        <Link  href="/ProposalPage" className="">
+                            Procedure
+                        </Link>
                         <Link  href="/AboutMe" className="">
                             About
                         </Link>
@@ -94,6 +97,9 @@ const Navbar: React.FC = () => {
                         </Link>
                         <Link  href="/Projects" className=" block p-2">
                             Project&apos;s
+                        </Link>
+                        <Link  href="/ProposalPage" className="">
+                            Procedure
                         </Link>
                         <Link  href="/AboutMe" className=" block p-2">
                             About
