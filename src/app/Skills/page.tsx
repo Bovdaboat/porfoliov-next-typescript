@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Skills: React.FC = () => {
     return(
-        <section id="/skills" className="pt-20 mt-20">
+        <section id="/skills" className="pt-20 mt-20 mb-20">
             <div className="flex justify-center ">
                 <div className="container mx-auto px-4 flex justify-center pt-20">
                     <div className="w-2/3">
