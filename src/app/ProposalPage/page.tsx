@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ProposalPage = () => {
   return (
-      <>
+      <div className="mb-20">
     <div id="/ProposalPage" className="flex justify-center  mt-20">
         <h1 className="text-3xl text-mono p-2 border-2 rounded-xl border-primary text-white bg-blue-700 m-3">How to get Started</h1>
     </div>
@@ -80,7 +80,7 @@ const ProposalPage = () => {
 
 
 
-          </>
+          </div>
 
   );
 }
