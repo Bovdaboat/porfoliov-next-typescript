@@ -27,7 +27,10 @@ const Landing: React.FC = () => {
                     interfaces for web 2.0 and web 3.0. Let&apos;s enhance your digital presence together
                 </p>
                 <div className="pt-6 mt-6">
-                    <Link href="/ProposalPage" className="bg-blue-700 p-2 m-2 border-2 rounded-xl border-primary text-white">Get Started</Link>
+                    <Link href="/ProposalPage" className="bg-blue-700 p-2 m-2 border-2 rounded-xl
+                    border-primary text-white">Learn More</Link>
+                    <Link href="/Contact" className="bg-blue-700 p-2 m-2 border-2 rounded-xl
+                    border-primary text-white">Contact Me</Link>
                 </div>
             </div>
         </div>
