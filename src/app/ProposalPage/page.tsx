@@ -71,7 +71,7 @@ const ProposalPage = () => {
                       <CardTitle className="font-mono text-xl">Lunch</CardTitle>
                   </CardHeader>
                   <CardContent>
-                      <p>As we unveil your site on the platform of your choice, I&apso;ll provide hands-on assistance in
+                      <p>As we unveil your site on the platform of your choice, I&apos;ll provide hands-on assistance in
                           navigating post-contract site management, tailored to your site&apos;s unique functionalities</p>
                   </CardContent>
               </Card>
